@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkFBQkIiLCJpZCI6IjYzMWE0MDA3MWQzZjgwMzdiZDE2MmMyMiIsImlhdCI6MTY2MjY2NzA0Nn0.jasRmqd0lx_5EynZFU6asA_8H4mTjjVL29Kf6AXyGSY
+Content-Type: application/json
+
+{
+    "title": "authorized blogpost 4.20",
+    "author": "A B",
+    "url": "url/page",
+    "likes": 3
+}
